@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final Membuat Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+            <nav>
+                <div class="wrapper">
+                    <div class="logo"><a href="#">My Portfolio</a></div>
+                    <a href="#" class="tombol-menu">
+                        <span class="garis"></span>
+                        <span class="garis"></span>
+                        <span class="garis"></span>
+                    </a>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#home"> Home </a></li>
+                                <li><a href="#about"> About </a></li>
+                                <li><a href="#portfolio"> Portfolio </a></li>
+                                <li><a href="#team"> Team </a></li>
+                                <li><a href="#blog"> Blog </a></li>
+                                <li><a href="#contact"> Contact </a></li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+            
+                <div class="container">
+                    <header id="home"> 
+                        <div class="tulisan">
+                            <h1>WELCOME</h1>
+                            <p>Pembuatan Website Sederhana</p>
+                            <p> 
+                                <a href="" class="tombol"> Get Started </a>
+                            </p>
+                      </div>
+                    </header>
+                </div>
+                <main>
+                    <section id="about">
+                        <div class="wrapper">
+                            <h3> About </h3>
+                            <p class="isi">Pembuatan Webiste Sederhana</p>
+                            <div class="isi-konten">
+                                <p>
+                                    Website ini adalah website untuk memenuhi tugas final dari hacktiv8, mengggunakan HTML, CSS dan Javascript.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="portfolio" class="pembeda">
+                        <div class="wrapper portfolio">
+                            <img src="foto.jpeg"/>
+                            <div>
+                                <h2> Portfolio </h2>
+                                <p>Nama : Azri Firman</p>
+                                <p>Alamat : Jetak-Paciran-Lamongan</p>
+                                <p>TTL  : 13 Maret 1995</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="team">
+                        <div class="wrapper">
+                            <h3> Team </h3>
+                            <p class="isi">Pembuatan Webiste Sederhana</p>
+                            <div class="team">
+                                <div>
+                                    <img src="foto.jpeg"/>
+                                    <h6>Azri Firman</h6>
+                                    <span>Indonesia</span>
+                                </div>
+                                <div>
+                                    <img src="foto.jpeg"/>
+                                    <h6>Azri Firman</h6>
+                                    <span>Indonesia</span>
+                                </div>
+                                <div>
+                                    <img src="foto.jpeg"/>
+                                    <h6>Azri Firman</h6>
+                                    <span>Indonesia</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                  
+                    <section id="blog">
+                        <div class="wrapper">
+                            <h3> Blog </h3>
+                            <p class="isi">Ini adalah section Blog</p>
+                            <div class="blog">
+                                <div class="box">
+                                    <div class="gambar" style="background-image: url('pemandangan.jpg')">
+                                    </div>
+                                    <div class="isi-text">
+                                        <article>
+                                            <h4><a href="#"> Pembuatan Website Sederhana</a></h4>
+                                            <p>
+                                                Blog ini hanya berisi tulisan Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, veritatis!
+                                            </p>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="gambar" style="background-image: url('pemandangan.jpg')">
+                                    </div>
+                                    <div class="isi-text">
+                                        <article>
+                                            <h4><a href="#"> Pembuatan Website Sederhana</a></h4>
+                                            <p>
+                                                Blog ini hanya berisi tulisan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, dignissimos.
+                                            </p>
+                                        </article>
+                                    </div>
+                            </div>  
+                        </div>
+                    </section>
+
+                    <section id="contact">
+                        <div class="wrapper">
+                            <h3> Contact </h3>
+                            <div>
+                              <form>
+                                <input type="text" id="fname" name="firstname" placeholder="Masukkan Nama">
+                                <input type="text" id="lname" name="lastname" placeholder="Masukkan Email">
+                                <textarea>
+                                </textarea>
+                                <input type="submit" value="Submit">
+                              </form>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <script src="jquery-3.6.0.js"></script>
+                <script src="tombolmenu.js"></script>
+    </body>
+</html>
